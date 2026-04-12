@@ -1,0 +1,160 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    background: #f5f7fb;
+    color: #333;
+}
+
+/* TOP NAVBAR */
+.navbar {
+    background: #0b3d91;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+/* MAIN LAYOUT */
+.wrapper {
+    display: flex;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 220px;
+    background: #102a43;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.sidebar a:hover {
+    background: #1c3d5a;
+}
+
+/* CONTENT AREA */
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* CARDS */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #0b3d91;
+}
+
+/* INPUTS */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* BUTTONS */
+button {
+    background: #0b3d91;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #082c66;
+}
+
+/* BOX RESULT */
+#resultBox {
+    margin-top: 15px;
+    padding: 15px;
+    background: #e9f0ff;
+    border-left: 4px solid #0b3d91;
+}
+
+/* ===== AUTH PAGES (LOGIN / REGISTER) ===== */
+
+.auth-body {
+    background: linear-gradient(120deg, #0b3d91, #102a43);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* AUTH CARD */
+.auth-card {
+    background: white;
+    width: 360px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.auth-card h2 {
+    color: #0b3d91;
+    margin-bottom: 20px;
+}
+
+/* INPUTS */
+.auth-card input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+/* BUTTON */
+.auth-card button {
+    width: 100%;
+    padding: 12px;
+    background: #0b3d91;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.auth-card button:hover {
+    background: #082c66;
+}
+
+/* SMALL LINK TEXT */
+.auth-card p {
+    margin-top: 10px;
+    font-size: 14px;
+}

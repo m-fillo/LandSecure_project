@@ -1,24 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landsecuresl</title>
-</head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>LOAS - Home</title>
+    <title>LOAS Secure Login</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
-    <h1>Land Ownership Authentication System (LOAS)</h1>
-    <p>Helping to reduce land fraud in Sierra Leone</p>
+<body class="auth-body">
 
-</body>
-</html>
-    
+<div class="auth-card">
+
+    <h2>🏛 LOAS Portal Login</h2>
+    <p>Land Ownership Authentication System</p>
+
+    <input type="text" id="loginUser" placeholder="Enter Username">
+    <input type="password" id="loginPass" placeholder="Enter Password">
+
+    <button onclick="login()">Secure Login</button>
+
+    <p>Don’t have an account? <a href="register.html">Create Account</a></p>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
