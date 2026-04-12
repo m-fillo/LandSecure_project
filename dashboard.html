@@ -1,55 +1,92 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>LOAS Government System</title>
+    <title>LOAS Dashboard</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="navbar">
-    <h2>🏛 Land Ownership Authentication System (LOAS)</h2>
-    <span>Government Portal</span>
-</div>
-
-<div class="wrapper">
-
-    <!-- SIDEBAR -->
-    <div class="sidebar">
-        <a href="dashboard.html">Dashboard</a>
+<!-- NAVBAR -->
+<div class="topnav">
+    <h2>🏛 LOAS</h2>
+    <div class="menu">
+        <a href="#">Home</a>
         <a href="land.html">Register Land</a>
-        <a href="verify.html">Verify Land</a>
+        <a href="verify.html">Verify</a>
+        <a href="#">Buy Land</a>
+        <a href="#">Rent</a>
         <a href="index.html">Logout</a>
     </div>
+</div>
 
-    <!-- CONTENT -->
-    <div class="content">
+<!-- HERO SECTION -->
+<div class="hero">
+    <div class="hero-text">
+        <h1>Secure Land Ownership</h1>
+        <p>Verify, Buy, Sell and Protect Land in Sierra Leone</p>
+        <button>Explore Lands</button>
+    </div>
+</div>
 
-        <h2>Dashboard</h2>
-        <p>Welcome to the official land verification system.</p>
+<!-- QUICK ACTIONS -->
+<div class="actions">
 
-        <div class="card-grid">
+    <div class="action-card">
+        <h3>Register Land</h3>
+        <p>Add your land officially</p>
+        <a href="land.html"><button>Go</button></a>
+    </div>
 
-            <div class="card">
-                <h3>Register Land</h3>
-                <p>Add new surveyed land records</p>
-                <a href="land.html"><button>Open</button></a>
-            </div>
+    <div class="action-card">
+        <h3>Verify Land</h3>
+        <p>Check land authenticity</p>
+        <a href="verify.html"><button>Go</button></a>
+    </div>
 
-            <div class="card">
-                <h3>Verify Land</h3>
-                <p>Check ownership authenticity</p>
-                <a href="verify.html"><button>Open</button></a>
-            </div>
+    <div class="action-card">
+        <h3>Sell Land</h3>
+        <p>List your land for sale</p>
+        <button>Coming Soon</button>
+    </div>
 
-            <div class="card">
-                <h3>System Status</h3>
-                <p>All systems operational</p>
-                <button disabled>Active</button>
-            </div>
+    <div class="action-card">
+        <h3>Rent House</h3>
+        <p>Find apartments easily</p>
+        <button>Coming Soon</button>
+    </div>
 
+</div>
+
+<!-- PROPERTY LIST -->
+<div class="properties">
+
+    <h2>Available Lands</h2>
+
+    <div class="property-grid">
+
+        <div class="property-card">
+            <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae">
+            <h3>Waterloo Land</h3>
+            <p>Price: Le 50,000</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="property-card">
+            <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa">
+            <h3>Bo City Land</h3>
+            <p>Price: Le 70,000</p>
+            <button>View Details</button>
+        </div>
+
+        <div class="property-card">
+            <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be">
+            <h3>Makeni Plot</h3>
+            <p>Price: Le 40,000</p>
+            <button>View Details</button>
         </div>
 
     </div>
+
 </div>
 
 </body>
