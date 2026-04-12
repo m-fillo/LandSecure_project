@@ -1,38 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Verify Land</title>
+    <title>LOAS Government System</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <div class="navbar">
-    <h2>Land Verification Portal</h2>
+    <h2>🏛 Land Ownership Authentication System (LOAS)</h2>
+    <span>Government Portal</span>
 </div>
 
 <div class="wrapper">
 
+    <!-- SIDEBAR -->
     <div class="sidebar">
         <a href="dashboard.html">Dashboard</a>
         <a href="land.html">Register Land</a>
         <a href="verify.html">Verify Land</a>
+        <a href="index.html">Logout</a>
     </div>
 
+    <!-- CONTENT -->
     <div class="content">
 
-        <div class="card">
-            <h3>Search Land Record</h3>
+        <h2>Dashboard</h2>
+        <p>Welcome to the official land verification system.</p>
 
-            <input id="searchId" placeholder="Enter Land ID">
-            <button onclick="checkLand()">Verify</button>
+        <div class="card-grid">
 
-            <div id="resultBox"></div>
+            <div class="card">
+                <h3>Register Land</h3>
+                <p>Add new surveyed land records</p>
+                <a href="land.html"><button>Open</button></a>
+            </div>
+
+            <div class="card">
+                <h3>Verify Land</h3>
+                <p>Check ownership authenticity</p>
+                <a href="verify.html"><button>Open</button></a>
+            </div>
+
+            <div class="card">
+                <h3>System Status</h3>
+                <p>All systems operational</p>
+                <button disabled>Active</button>
+            </div>
+
         </div>
 
     </div>
 </div>
-
-<script src="script.js"></script>
 
 </body>
 </html>
